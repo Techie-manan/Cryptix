@@ -1,11 +1,14 @@
 import React from 'react'
+import './home.css'
 
-const home = () => {
-  return (
-    <div className='bg-gray- w-full h-full text-white'>
-      
-    </div>
-  )
+const Home = () => {
+    return (
+        <>
+            <div className='w-full h-screen text-white centre'>
+HOme
+            </div>
+        </>
+    )
 }
 
-export default home
+export default Home

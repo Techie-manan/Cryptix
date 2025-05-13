@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <div className='bg-gray-800 text-white'>
       <Navbar />
       <Home />
       <WhyCryptix />
@@ -21,6 +22,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Footer />
+      </div>
     </>
   )
 }
