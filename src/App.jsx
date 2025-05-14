@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-gray-900 text-white relative'>
+    <div className='bg-gray-900 text-white'>
       <Navbar />
       <Home />
       <WhyCryptix />
