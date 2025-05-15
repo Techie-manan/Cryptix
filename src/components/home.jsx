@@ -10,7 +10,7 @@ const Home = () => {
                     <div className='centre flex-col gap-8'>
                         <div className="centre flex-col gap-3">
                             <div className='centre flex-col gap-10 text-center'>
-                                <div className="text-8xl centre font-semibold">
+                                <div className="text-7xl centre font-semibold">
                                     Take Control Of <br />Your Digital Assets
                                 </div>
                                 <div>
