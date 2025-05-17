@@ -6,7 +6,7 @@
 
 .bordr{
     border: 1px solid #202026;
-    padding: 10px;
+    border-collapse: collapse;
 }
 
 .border{
