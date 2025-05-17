@@ -40,6 +40,9 @@ const Home = () => {
                     <img src="https://framerusercontent.com/images/6AfF1TCZ0fgDvIyRPSrmwJXP9Hc.png?scale-down-to=2048" alt="" className='w-[80%]' />
                     
                 </div>
+                <div className='w-full h-[60vh] centre text-center mb-10'>
+                    <p className='text-5xl w-2/3 leading-tight'>Simplicity, performance, and security, empowering you to navigate the digital world with confidence and agility. </p>
+                </div>
             </div>
         </>
     )
