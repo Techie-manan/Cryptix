@@ -11,7 +11,7 @@ const cryptos = () => {
           </div>
           <div className='h-[30vh] '></div>
           <div className='flex gap-5 items-center py-5'>
-            <div className='text-2xl font-semibold'>Buy crypto now </div>
+            <div className='text-2xl font-semibold'>Buy crypto now!! </div>
             <i class="fi fi-br-arrow-up-right text-xl"></i>
           </div>
         </div>
