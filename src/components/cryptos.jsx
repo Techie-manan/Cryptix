@@ -17,6 +17,8 @@ const cryptos = () => {
         </div>
         <div className="flex-1/2 mr-15 bordr"></div>
       </div>
+              <div className='bordr h-[30vh] mx-15 centre'></div>
+
     </>
   )
 }
