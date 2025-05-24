@@ -15,7 +15,7 @@ const howitworks = () => {
           </h2>
         </div>
       </div>
-      <div className="flex flex-wrap bordr mx-15 w-full">
+      <div className="flex flex-wrap bordr mx-15 ">
         <div className="flex flex-col bordr p-15 gap-5 w-1/2">
           <div className="flex gap-5">
             <h1 className="p-5 bordr rounded-full h-14 centre text-xl font-semibold"> 1</h1>
@@ -42,6 +42,8 @@ const howitworks = () => {
           <h3>Enjoy the simplicity of a platform that makes every transaction seamless in real-time.</h3>
         </div>
       </div>
+      <div className='bordr w-full'>
+        <div className='bordr h-[30vh] mx-15 centre'></div></div>
     </>
   )
 }
