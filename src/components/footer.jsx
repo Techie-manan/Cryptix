@@ -1,4 +1,5 @@
 import React from 'react'
+import Text from './animation/text.jsx'
 
 const footer = () => {
   return (
@@ -6,7 +7,8 @@ const footer = () => {
       <div className='bordr w-full'>
         <div className='bordr h-[60vh] mx-15 centre flex-col gap-15 p-10'>
           <h1 className='text-5xl font-semibold'>Ready to take control of your crypto?</h1>
-          <h3 className='text-2xl text-center p-3 font-semibold text-gray-400'>Join thousands of users who trust Cryptix for secure, seamless, and efficient cryptocurrency<br /> transactions. Start now and unlock the full potential of digital assets.</h3>
+          <h3 className='text-2xl text-center p-3 font-semibold text-gray-400'>
+            <Text text={`Join thousands of users who trust Cryptix for secure, seamless, and efficient cryptocurrency\n transactions. Start now and unlock the full potential of digital assets.`}/></h3>
           <button className='bg-green-400 rounded-full p-5 px-8 text-black centre'>
             <div className='font-semibold text-2xl'>Get started now</div>
             <i class="fi fi-rr-arrow-trend-up px-2 font-semibold tex-2xl"></i>

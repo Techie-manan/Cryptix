@@ -1,12 +1,14 @@
 import React from 'react'
 import '@flaticon/flaticon-uicons/css/all/all.css';
+import Text from './animation/text.jsx'
 
 
 const whycryptix = () => {
   return (
     <>
       <h1 className='centre text-4xl my-3'>Why Choose Cryptix?</h1>
-      <p className='text-gray-400 text-2xl centre mb-10'>Benefits designed to provide a seamless, secure, and accessible experience for all users.</p>
+      <p className='text-gray-400 text-2xl centre mb-10'>
+        <Text text={`Benefits designed to provide a seamless, secure, and accessible experience for all users.`}/></p>
       <div className='w-full h-fit centre bordr p-0'>
         <div className="flex bordr mx-15">
           <div className="flex flex-col gap-3 bordr p-3">

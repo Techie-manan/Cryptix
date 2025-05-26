@@ -1,6 +1,7 @@
 import React from 'react'
 import '@flaticon/flaticon-uicons/css/all/all.css';
 import './home.css'
+import Text from './animation/text.jsx'
 
 const Home = () => {
     return (
@@ -14,7 +15,7 @@ const Home = () => {
                                     Take Control Of <br />Your Digital Assets
                                 </div>
                                 <div>
-                                    Cryptix offers a seamless, secure experience for managing your digital assets. Instant <br/>transactions, optimized fees, and premium design.
+                                   <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets. Instant \n transactions, optimized fees, and premium design.`}/>
                                 </div>
                             </div>
                             <button className='bg-green-400 rounded-full px-5 py-2 text-black centre'>
@@ -41,7 +42,8 @@ const Home = () => {
                     
                 </div>
                 <div className='w-full h-[60vh] centre text-center mb-10'>
-                    <p className='text-5xl w-2/3 leading-tight'>Simplicity, performance, and security, empowering you to navigate the digital world with confidence and agility. </p>
+                    <p className='text-5xl w-2/3 leading-tight'>
+                   <Text text={` Simplicity, performance, and security, empowering you to navigate the digital world with confidence and agility.`}/> </p>
                 </div>
             </div>
         </>
