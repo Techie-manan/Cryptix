@@ -45,7 +45,7 @@ const TextReveal = ({ text }) => {
       variants={containerVariants}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
-      className="inline-block whitespace-pre-wrap leading-snug text-2xl font-semibold"
+      className="inline-block whitespace-pre-wrap leading-snug text-xl font-semibold"
     >
       {characters.map(({ char, key }) =>
         char === '\n' ? (

@@ -15,7 +15,7 @@ const Home = () => {
                                     Take Control Of <br />Your Digital Assets
                                 </div>
                                 <div>
-                                   <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets. Instant \n transactions, optimized fees, and premium design.`}/>
+                                   <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
                                 </div>
                             </div>
                             <button className='bg-green-400 rounded-full px-5 py-2 text-black centre'>
