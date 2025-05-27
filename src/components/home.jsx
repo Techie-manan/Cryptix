@@ -7,12 +7,12 @@ const Home = () => {
     return (
         <>
             <div className='w-full h-fit text-white flex flex-col items-center gap-20 mt-1/3'>
-                <div className="centre w-1/2 h-1/2 mt-[25vh]">
+                <div className="centre w-1/2 h-1/2 mt-[30vh] mb-[10vh]">
                     <div className='centre flex-col gap-8'>
                         <div className="centre flex-col gap-3">
                             <div className='centre flex-col gap-10 text-center'>
-                                <div className="text-7xl centre font-semibold">
-                                    Take Control Of <br />Your Digital Assets
+                                <div className="text-7xl centre">
+                                    Take Control Of Your <br />Digital Assets
                                 </div>
                                 <div>
                                    <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
@@ -37,9 +37,14 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+              
                 <div className='relative w-full h-1/2 centre flex-col'>
-                    <img src="https://framerusercontent.com/images/6AfF1TCZ0fgDvIyRPSrmwJXP9Hc.png?scale-down-to=2048" alt="" className='w-[80%]' />
-                    
+                    <img src="https://framerusercontent.com/images/6AfF1TCZ0fgDvIyRPSrmwJXP9Hc.png?scale-down-to=2048" alt="" className='w-[80%] z-0' />
+                      <div className="boxx"></div>
+                      <div className="line"></div>
+                      <div className="line2"></div>
+                      <div className="line3"></div>
+                      <div className="line4"></div>
                 </div>
                 <div className='w-full h-[60vh] centre text-center mb-10'>
                     <p className='text-5xl w-2/3 leading-tight'>

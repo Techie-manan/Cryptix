@@ -6,7 +6,6 @@
 
 .bordr{
     border: 1px solid #202026;
-    border-collapse: collapse;
 }
 
 .border{
@@ -20,3 +19,69 @@
     /* box-shadow: inset 0 4px 3px #202026; */
 }
 
+/* Rectangle 29 */
+.boxx{
+position: absolute;
+width: 685px;
+height: 384px;
+top: -25%;
+mix-blend-mode: lighten;
+background: #19F019;
+opacity: 0.1;
+filter: blur(67.5px);
+border-radius: 300px;
+}
+
+.line{
+    width: 1059px;
+height: 29px;
+display: block;
+-webkit-filter: blur(24.5px);
+filter: blur(24.5px);
+mix-blend-mode: lighten;
+background: radial-gradient(50% 49.99999999999999% at 50% 49.99999999999999%, #00ffb2 0%, rgba(0, 202, 141, 0.4000000059604645) 100%);
+opacity: 0.3;
+position: absolute;
+border-radius: 100%;
+top: -5%;
+}
+
+.line2{
+    width: 679px;
+height: 17px;
+display: block;
+-webkit-filter: blur(40.5px);
+filter: blur(40.5px);
+mix-blend-mode: lighten;
+background: radial-gradient(50% 49.99999999999999% at 50% 49.99999999999999%, #00ffb2 0%, rgba(0, 202, 141, 0.4000000059604645) 100%);
+opacity: 0.8;
+position: absolute;
+border-radius: 100%;
+top: -5%;
+}
+.line3{
+    width: 645px;
+height: 17px;
+display: block;
+-webkit-filter: blur(7px);
+filter: blur(7px);
+mix-blend-mode: lighten;
+background: radial-gradient(50% 49.99999999999999% at 50% 49.99999999999999%, #ffffff 0%, rgba(255, 255, 255, 0.4000000059604645) 100%);
+opacity: 0.2;
+position: absolute;
+border-radius: 100%;
+top: -1px;
+}
+
+.line4{
+    width: 647px;
+height: 2px;
+display: block;
+-webkit-filter: blur(0px);
+filter: blur(0px);
+mix-blend-mode: lighten;
+background: radial-gradient(50% 49.99999999999999% at 50% 49.99999999999999%, #ffffff 0%, rgba(199, 255, 238, 0) 100%);
+position: absolute;
+border-radius: 100%;
+top: -1px;
+}
