@@ -12,7 +12,7 @@ const Home = () => {
                         <div className="centre flex-col gap-3">
                             <div className='centre flex-col gap-10 text-center'>
                                 <div className="text-7xl centre">
-                                    Take Control Of Your <br />Digital Assets
+                                    Take Control Of Your <br /> Digital Assets
                                 </div>
                                 <div>
                                    <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
