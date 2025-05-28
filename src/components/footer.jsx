@@ -1,12 +1,12 @@
-import React from 'react'
+import AniY from './animation/aniY.jsx'
 import Text from './animation/text.jsx'
 
 const footer = () => {
   return (
     <>
-      <div className='bordr w-full'>
+      <div className='bordr w-full relative overflow-hidden'>
         <div className='bordr h-[60vh] mx-15 centre flex-col gap-15 p-10'>
-          <h1 className='text-5xl font-semibold'>Ready to take control of your crypto?</h1>
+         <AniY> <h1 className='text-5xl font-semibold'>Ready to take control of your crypto?</h1></AniY>
           <h3 className='text-2xl text-center p-3 font-semibold text-gray-400'>
             <Text text={`Join thousands of users who trust Cryptix for secure, seamless, and efficient cryptocurrency\n transactions. Start now and unlock the full potential of digital assets.`}/></h3>
           <button className='bg-green-400 rounded-full p-5 px-8 text-black centre'>
@@ -14,6 +14,7 @@ const footer = () => {
             <i class="fi fi-rr-arrow-trend-up px-2 font-semibold tex-2xl"></i>
           </button>
         </div>
+        <div className="boxx left-1/3 -bottom-1/4"></div>
       </div>
       <div className='bordr mx-15 flex justify-between p-10 pb-10'>
         <div>

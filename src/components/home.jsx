@@ -2,28 +2,29 @@ import React from 'react'
 import '@flaticon/flaticon-uicons/css/all/all.css';
 import './home.css'
 import Text from './animation/text.jsx'
+import AniY from './animation/aniY.jsx';
 
 const Home = () => {
     return (
         <>
             <div className='w-full h-fit text-white flex flex-col items-center gap-20 mt-1/3'>
-                <div className="centre w-1/2 h-1/2 mt-[30vh] mb-[10vh]">
-                    <div className='centre flex-col gap-8'>
-                        <div className="centre flex-col gap-3">
+                <div className="centre  h-1/2 mt-[30vh] mb-[10vh]">
+                    <div className='centre flex-col gap-15'>
+                        <div className="centre flex-col gap-23">
                             <div className='centre flex-col gap-10 text-center'>
-                                <div className="text-7xl centre">
+                               <AniY> <div className="text-8xl centre">
                                     Take Control Of Your <br /> Digital Assets
-                                </div>
+                                </div></AniY>
                                 <div>
                                    <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
                                 </div>
                             </div>
-                            <button className='bg-green-400 rounded-full px-5 py-2 text-black centre'>
-                                <div className='font-semibold'>Get started now</div>
+                           <AniY> <button className='bg-green-400 rounded-full px-7 py-3 text-black centre'>
+                                <div className='font-semibold text-2xl'>Get started now</div>
                                 <i class="fi fi-rr-arrow-trend-up px-2 font-semibold tex-xl"></i>
-                            </button>
+                            </button></AniY>
                         </div>
-                        <div className="centre flex-col gap-2">
+                       <AniY> <div className="centre flex-col gap-2 text-2xl">
                             <h1>They trust us!</h1>
                             <div className="centre gap-2">
                                 <i class="fi fi-ss-star"></i>
@@ -34,13 +35,13 @@ const Home = () => {
                                 <h1>4.8</h1>
                                 <i class="fi fi-brands-google"></i>
                             </div>
-                        </div>
+                        </div></AniY>
                     </div>
                 </div>
               
                 <div className='relative w-full h-1/2 centre flex-col'>
                     <img src="https://framerusercontent.com/images/6AfF1TCZ0fgDvIyRPSrmwJXP9Hc.png?scale-down-to=2048" alt="" className='w-[80%] z-0' />
-                      <div className="boxx"></div>
+                      <div className="boxx -top-1/4"></div>
                       <div className="line"></div>
                       <div className="line2"></div>
                       <div className="line3"></div>

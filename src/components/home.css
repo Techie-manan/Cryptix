@@ -24,7 +24,7 @@
 position: absolute;
 width: 685px;
 height: 384px;
-top: -25%;
+/* top: -25%; */
 mix-blend-mode: lighten;
 background: #19F019;
 opacity: 0.1;

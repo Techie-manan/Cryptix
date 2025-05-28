@@ -1,4 +1,4 @@
-import React from 'react'
+import AniY from './animation/aniY.jsx'
 import Text from './animation/text.jsx'
 
 const faq = () => {
@@ -6,7 +6,7 @@ const faq = () => {
     <>
       <div className='centre bordr w-full px-15'>
         <div className="flex-2/3 bordr h-35 flex flex-col gap-4 p-5">
-          <h1 className='text-5xl'>Your Questions, Answered</h1>
+         <AniY><h1 className='text-5xl'>Your Questions, Answered</h1></AniY> 
           <h3 className='text-xl'>
             <Text text={`Find everything you need to know about Cryptix, from security to supported assets.`}/></h3>
         </div>
@@ -24,7 +24,8 @@ const faq = () => {
               <h1 className='text-2xl font-semibold p-3'>What is Cryptix?</h1>
               <div className="view"></div>
             </div>
-            <h3 className='p-3 font-medium text-gray-500 text-xl '>Cryptix is a next-generation platform for buying, selling, and converting cryptocurrencies with real-time market insights.</h3>
+           <AniY initial={{opacity:0, y: -40}}>
+            <h3 className='p-3 font-medium text-gray-500 text-xl '>Cryptix is a next-generation platform for buying, selling, and converting cryptocurrencies with real-time market insights.</h3></AniY>
           </div>
           <div className="bordr p-5">
             <div className="flex">

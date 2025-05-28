@@ -1,4 +1,4 @@
-import React from 'react'
+import AniY from './animation/aniY.jsx'
 import Text from './animation/text.jsx'
 
 const testimonials = () => {
@@ -6,7 +6,7 @@ const testimonials = () => {
     <>
       <div className='w-full bordr'>
         <div className="centre flex-col mx-15 bordr p-10 gap-5">
-          <h1 className='text-5xl'>Trusted by Crypto Enthusiasts Worldwide</h1>
+         <AniY><h1 className='text-5xl'>Trusted by Crypto Enthusiasts Worldwide</h1></AniY> 
           <h2 className='text-xl'>
            <Text text={` Join a growing community of investors who choose Cryptix for its seamless experience, security, and premium design. `}/></h2>
         </div>
@@ -20,9 +20,10 @@ const testimonials = () => {
           <h1 className='text-3xl font-bold'>
            <Text text={` “Security and ease of use are my top priorities. Cryptix \n delivers on both with style.”`}/>
            </h1>
+           <AniY>
           <h2 className='text-xl font-semibold'>Sophie L.
             <h2 className='font-medium text-lg text-gray-400'>Lead Developer at Quantum Ledger</h2>
-          </h2>
+          </h2> </AniY>
         </div>
 
         <div className="flex-1/4 flex flex-col bordr">
