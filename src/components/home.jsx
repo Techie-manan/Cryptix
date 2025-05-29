@@ -15,7 +15,7 @@ const Home = () => {
                                <AniY> <div className="text-8xl centre">
                                     Take Control Of Your <br /> Digital Assets
                                 </div></AniY>
-                                <div>
+                                <div className='text-2xl'>
                                    <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
                                 </div>
                             </div>

@@ -91,3 +91,31 @@ box-shadow: inset 0px 0px 16px 0px rgba(255, 255, 255, 0.08);
 border-radius: 50px;
 border: 1px solid rgba(95, 95, 113, 0.22);
 }
+
+.bwrad {
+    width: 730px;
+height: 530px;
+display: block;
+-webkit-filter: blur(90px);
+filter: blur(90px);
+background-color: #ffffff;
+opacity: 0.1;
+z-index: 0;
+aspect-ratio: 1 / 1;
+border-radius: 100%;
+position: absolute;
+}
+
+.bwrad2 {
+     width: 830px;
+height: 830px;
+display: block;
+-webkit-filter: blur(90px);
+filter: blur(90px);
+background-color: #ffffff;
+opacity: 0.01;
+z-index: 0;
+aspect-ratio: 1 / 1;
+border-radius: 100%;
+position: absolute;   
+}

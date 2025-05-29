@@ -14,6 +14,7 @@ const footer = () => {
             <i class="fi fi-rr-arrow-trend-up px-2 font-semibold tex-2xl"></i>
           </button>
         </div>
+        <div className="bwrad left-1/3 -top-1/2"></div>
         <div className="boxx left-1/3 -bottom-1/4"></div>
       </div>
       <div className='bordr mx-15 flex justify-between p-10 pb-10'>
@@ -22,7 +23,7 @@ const footer = () => {
             <img src="images\logo1.png" alt="" className='h-10'/>
             <h1>Cryptix</h1>
           </div>
-          <h2 className='text-xl text-gray-400'>Secure, fast, and seamless crypto trading.<br/> Cryptix makes digital assets effortless.</h2>
+          <h2 className='text-2xl text-gray-400'>Secure, fast, and seamless crypto trading.<br/> Cryptix makes digital assets effortless.</h2>
           <div className='h-40'></div>
           <a href="" className='text-2xl font-semibold mb-15'> Created by Manan</a>
         </div>

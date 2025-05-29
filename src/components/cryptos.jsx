@@ -19,7 +19,7 @@ const cryptos = () => {
         <div className="flex-1/2 ml-15 bordr p-10 gap-3">
           <div className='flex flex-col gap-5'>
             <AniY> <h1 className='text-5xl font-semibold'>All Cryptos, One Platform</h1></AniY>
-            <p className='text-gray-400 text-xl'>
+            <p className='text-gray-400 text-2xl'>
               <Text text={`Buy, sell, and convert all major cryptocurrencies on a single platform. A seamless experience with no compromises.`} /></p>
           </div>
           <div className='h-[30vh] '></div>

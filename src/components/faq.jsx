@@ -5,14 +5,14 @@ const faq = () => {
   return (
     <>
       <div className='centre bordr w-full px-15'>
-        <div className="flex-2/3 bordr h-35 flex flex-col gap-4 p-5">
-         <AniY><h1 className='text-5xl'>Your Questions, Answered</h1></AniY> 
-          <h3 className='text-xl'>
+        <div className="flex-2/3 bordr flex flex-col gap-7 p-5">
+         <AniY><h1 className='text-6xl'>Your Questions, Answered</h1></AniY> 
+          <h3 className='text-2xl'>
             <Text text={`Find everything you need to know about Cryptix, from security to supported assets.`}/></h3>
         </div>
         <div className="flex-1/3 bordr flex flex-col h-35">
           <div className="flex-1/2 bordr"></div>
-          <h2 className='flex-1/2 bordr flex items-center justify-end p-5 text-xl'>Create account now
+          <h2 className='flex-1/2 bordr flex items-center justify-end p-5 text-2xl'>Create account now
             <i class="fi fi-br-arrow-up-right text-lg px-3"></i>
           </h2>
         </div>
@@ -21,11 +21,11 @@ const faq = () => {
         <div>
           <div className="bordr p-5">
             <div className="flex">
-              <h1 className='text-2xl font-semibold p-3'>What is Cryptix?</h1>
+              <h1 className='text-3xl font-semibold p-3'>What is Cryptix?</h1>
               <div className="view"></div>
             </div>
            <AniY initial={{opacity:0, y: -40}}>
-            <h3 className='p-3 font-medium text-gray-500 text-xl '>Cryptix is a next-generation platform for buying, selling, and converting cryptocurrencies with real-time market insights.</h3></AniY>
+            <h3 className='p-3 font-medium text-gray-500 text-2xl '>Cryptix is a next-generation platform for buying, selling, and converting cryptocurrencies with real-time market insights.</h3></AniY>
           </div>
           <div className="bordr p-5">
             <div className="flex">

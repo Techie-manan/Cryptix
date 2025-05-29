@@ -7,7 +7,7 @@ const testimonials = () => {
       <div className='w-full bordr'>
         <div className="centre flex-col mx-15 bordr p-10 gap-5">
          <AniY><h1 className='text-5xl'>Trusted by Crypto Enthusiasts Worldwide</h1></AniY> 
-          <h2 className='text-xl'>
+          <h2 className='text-2xl'>
            <Text text={` Join a growing community of investors who choose Cryptix for its seamless experience, security, and premium design. `}/></h2>
         </div>
       </div>
@@ -21,8 +21,8 @@ const testimonials = () => {
            <Text text={` “Security and ease of use are my top priorities. Cryptix \n delivers on both with style.”`}/>
            </h1>
            <AniY>
-          <h2 className='text-xl font-semibold'>Sophie L.
-            <h2 className='font-medium text-lg text-gray-400'>Lead Developer at Quantum Ledger</h2>
+          <h2 className='text-2xl font-semibold'>Sophie L.
+            <h2 className='font-medium text-xl text-gray-400'>Lead Developer at Quantum Ledger</h2>
           </h2> </AniY>
         </div>
 
