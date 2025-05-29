@@ -15,20 +15,20 @@ const cryptos = () => {
 
   return (
     <>
-      <div className="flex w-full bordr">
-        <div className="flex-1/2 ml-15 bordr p-10 gap-3">
+      <div className="flex flex-col md:flex-row w-full bordr">
+        <div className="flex-1/2 ml-15 bl br p-10 gap-3">
           <div className='flex flex-col gap-5'>
-            <AniY> <h1 className='text-5xl font-semibold'>All Cryptos, One Platform</h1></AniY>
-            <p className='text-gray-400 text-2xl'>
+            <AniY> <h1 className='text-4xl font-semibold'>All Cryptos, One Platform</h1></AniY>
+            <p className='text-gray-400 text-xl'>
               <Text text={`Buy, sell, and convert all major cryptocurrencies on a single platform. A seamless experience with no compromises.`} /></p>
           </div>
           <div className='h-[30vh] '></div>
-          <div className='flex gap-5 items-center py-5'>
-            <div className='text-3xl font-semibold'>Buy crypto now </div>
+          <div className='flex gap-5 items-center h-1/6 py-5 bg overflow-hidden'>
+            <div className='text-2xl font-semibold'>Buy crypto now </div>
             <i class="fi fi-br-arrow-up-right text-xl"></i>
           </div>
         </div>
-        <div className="w-[50vw] mr-15 bordr overflow-x-hidden">
+        <div className="w-[50vw] mr-15 br overflow-x-hidden -z-0">
 
           <div className="overflow-hidden w-full py-4">
             <motion.div
@@ -172,7 +172,7 @@ const cryptos = () => {
 
         </div>
       </div>
-      <div className='bordr h-[30vh] mx-15 centre'></div>
+      <div className='br bl h-[30vh] mx-15 centre'></div>
 
     </>
   )

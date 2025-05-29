@@ -7,24 +7,24 @@ import AniY from './animation/aniY.jsx';
 const Home = () => {
     return (
         <>
-            <div className='w-full h-fit text-white flex flex-col items-center gap-20 mt-1/3'>
-                <div className="centre  h-1/2 mt-[30vh] mb-[10vh]">
+            <div className='w-full h-fit text-white flex flex-col items-center gap-20 mt-1/3 relative'>
+                <div className="centre  h-1/2 mt-[20vh] mb-[10vh]">
                     <div className='centre flex-col gap-15'>
                         <div className="centre flex-col gap-23">
                             <div className='centre flex-col gap-10 text-center'>
-                               <AniY> <div className="text-8xl centre">
+                               <AniY> <div className="text-7xl centre">
                                     Take Control Of Your <br /> Digital Assets
                                 </div></AniY>
-                                <div className='text-2xl'>
+                                <div className='text-xl'>
                                    <Text text={` Cryptix offers a seamless, secure experience for managing your digital assets.\n Instant  transactions, optimized fees, and premium design.`}/>
                                 </div>
                             </div>
                            <AniY> <button className='bg-green-400 rounded-full px-7 py-3 text-black centre'>
-                                <div className='font-semibold text-2xl'>Get started now</div>
+                                <div className='font-semibold text-xl'>Get started now</div>
                                 <i class="fi fi-rr-arrow-trend-up px-2 font-semibold tex-xl"></i>
                             </button></AniY>
                         </div>
-                       <AniY> <div className="centre flex-col gap-2 text-2xl">
+                       <AniY> <div className="centre flex-col gap-2 text-xl">
                             <h1>They trust us!</h1>
                             <div className="centre gap-2">
                                 <i class="fi fi-ss-star"></i>
@@ -37,6 +37,8 @@ const Home = () => {
                             </div>
                         </div></AniY>
                     </div>
+                    <div className="bwrad -left-1/3 bottom-3/4"></div>
+                    <div className="bwrad -right-1/3 bottom-1/2"></div>
                 </div>
               
                 <div className='relative w-full h-1/2 centre flex-col'>
@@ -48,7 +50,7 @@ const Home = () => {
                       <div className="line4"></div>
                 </div>
                 <div className='w-full h-[60vh] centre text-center mb-10'>
-                    <p className='text-5xl w-2/3 leading-tight'>
+                    <p className='text-4xl w-2/3 leading-tight'>
                    <Text text={` Simplicity, performance, and security, empowering you to navigate the digital world with confidence and agility.`}/> </p>
                 </div>
             </div>

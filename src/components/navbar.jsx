@@ -4,7 +4,7 @@ import '@flaticon/flaticon-uicons/css/all/all.css';
 
 const navbar = () => {
     return (
-        <div className=' fixed w-full h-17 px-10 py-5 overflow-hidden bg-black/50 flex-col gap-5 backdrop-blur-sm'>
+        <div className=' fixed w-full h-17 px-10 py-5 overflow-hidden bg-black/70 flex-col gap-5 backdrop-blur-sm z-50'>
             <div className='flex justify-between items-center text-white pb-2'>
                 <div className='centre font-bold gap-3 text-2xl'>
                     <img src="images\logo1.png" alt="" className='h-9'/>

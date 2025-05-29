@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import React from 'react'
 
-const aniY = ({
+const AniY = ({
   children,
   delay = 0,
   initial = { opacity: 0, y: 40 },
@@ -23,4 +23,4 @@ const aniY = ({
   );
 };
 
-export default aniY
+export default AniY;
